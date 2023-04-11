@@ -1,0 +1,111 @@
+body {
+    background-color:#F7F9F9 ;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  
+  .topnav {
+    position:fixed;
+    top:0px;
+    padding-top:7px;
+    padding-bottom:10px;
+    width:100%;
+    background-color:whitesmoke;
+    border-bottom:1px solid lightgrey;
+    z-index:100;
+  }
+  
+  .hamburger {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .menu {
+    font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size: 14px;
+    padding-left:500px;
+    padding-right:500px;
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    gap:7px;
+  
+  }
+  
+  .menu a{
+    color:black;
+    text-decoration:none;
+    padding: 10px 23px;
+    border-radius: 12px;
+  
+  }
+  
+  .menu a:hover {
+    text-decoration:none;
+    background-color:#c0a9b0;
+    padding: 10px 23px;
+    border-radius: 12px;
+  }
+  
+  .container {
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+  }
+  
+  .picture {
+    border-radius: 3%;
+  }
+  
+  .quote {
+    color:darkslategrey;
+    font-family:fantasy;
+    font-size: 27px;
+    font-weight:550;
+    width:400px;
+    display:flex;
+    align-items: center;
+  }
+  
+  .author {
+    color:darkslategrey;
+    font-family:fantasy;
+    font-size:15px;
+  }
+  
+  
+  #container1{
+    margin-top:30px;
+  }
+  
+  #container2 {
+    background-color: #e2e2e2;
+  }
+  
+  
+  .bottomnav {
+    width:100%;
+    bottom:0px;
+    height:100px;
+    margin-top:20px;
+    background-color: whitesmoke;
+    border-top:1px solid lightgrey;
+  }
+  
+  
+  #github {
+    text-decoration: none;
+    font-family:-apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size:17px;
+    font-weight:450;
+    color:black;
+    position:relative;
+    left:255px;
+    top:30px;
+  
+  }
